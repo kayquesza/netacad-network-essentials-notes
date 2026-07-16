@@ -191,7 +191,7 @@ Qual dos seguintes métodos de transmissão de sinal usa frequências ou pulsos 
 ___
 #### 1.3 Largura de banda e taxa de transferência
 
-###### Largura de banda
+###### Largura de banda (Bandwidth)
 
 Para comportar aplicativos com alta largura de banda, as redes precisam ser capazes de transmitir e receber bits em uma taxa muito alta.
 
@@ -204,4 +204,52 @@ Estas são as medidas comuns de largura de banda:
 - Milhões de bits por segundo (Mbps)
 - Bilhões de bits por segundo (Gbps)
 
-kjhjn
+Unidades comumente usadas para largura de banda
+
+| Unidades de Largura de Banda | Sigla | Equivalência                                    |
+| ---------------------------- | ----- | ----------------------------------------------- |
+| Bits por segundo             | bps   | 1 bps = unidade fundamental de largura de banda |
+| Quilobits por segundo        | Kbps  | 1 Kbps = 1,000 bps                              |
+| Megabits por segundo         | Mbps  | 1 Mbps = 1,000,000 bps                          |
+| Gigabits por segundo         | Gbps  | 1 Gbps = 1,000,000,000 bps                      |
+| Terabits por segundo         | Tbps  | 1 Tbps =  1,000,000,000,000 bps                 |
+___
+#### Taxa de transferência (Troughput)
+
+Taxa de transferência é a medida da transferência de bits através do meio físico durante um determinado período. Entretanto, devido a vários fatores, geralmente a taxa de transferência não corresponde à largura de banda especificada. Fatores influenciam a taxa de transferência: 
+- A quantidade de dados enviados e recebidos pela conexão
+- Os tipos de dados transmitidos 
+- A latência criada pelo número de dispositivos de rede encontrados entre a origem e o destino
+O termo *latência* se refere ao tempo necessário para os dados viajarem de um ponto a outro, incluindo atrasos. 
+
+___
+##### Perguntas
+
+**Pergunta 1**
+A capacidade de um meio físico transportar dados é conhecida como:
+- [ ] taxa de dados
+- [ ] taxa de transferência
+- [ ] largura de banda
+- [ ] velocidade
+
+**Resposta:** Largura de banda; é a capacidade de um meio de transportar dados.
+
+**Pergunta 2**
+Qual das seguintes medições inclui qualquer latência encontrada durante as transmissões de dados?
+- [ ] taxa de transferência
+- [ ] taxa de dados
+- [ ] largura de banda
+- [ ] velocidade
+
+**Resposta:** taxa de transferência; a quantidade de dados, o tipo de dados e a latência da rede são combinados para fazer com que a taxa de transferência não corresponda à largura de banda.
+
+**Pergunta 3**
+Qual das seguintes medições inclui qualquer latência encontrada durante as transmissões de dados?
+- [ ] bits por segundo
+- [ ] número total de bytes
+- [ ] bytes por milissegundo
+- [ ] bytes por segundo
+- [ ] bits por milissegundo
+- [ ] número total de bits
+
+**Resposta:** bits por segundo; "largura de banda costuma ser medida pelo **número de bits** que (teoricamente) podem ser enviados através do meio físico **em um segundo**."
